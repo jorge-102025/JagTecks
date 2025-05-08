@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create Order</title>
+</head>
+<body>
+    <h2>Create a New Order</h2>
+    <form action="order_process.php" method="POST">
+        <label for="product_id">Product ID:</label><br>
+        <input type="text" id="product_id" name="product_id" required><br><br>
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" name="quantity" required><br><br>
+        <button type="submit">Place Order</button>
+    </form>
+</body>
+</html>
